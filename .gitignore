@@ -1,0 +1,139 @@
+# =========================
+#  Python & Django
+# =========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django-specific files
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+celerybeat-schedule
+debug.log
+logs/
+*.out
+
+# Secret files (Environment variables)
+.env
+.env.local
+.env.development
+.env.production
+.env.testing
+.env.*.backup
+*.pem  # Private keys
+
+# Django migrations (excluding __init__.py)
+**/migrations/*
+!**/migrations/__init__.py
+
+# =========================
+#  PostgreSQL & Database
+# =========================
+*.pgsql
+*.sql
+*.sqlite3
+dump.rdb
+*.db
+
+# =========================
+#  Docker
+# =========================
+.dockerignore
+docker-compose.override.yml
+*.dockerfile
+.docker/
+
+# =========================
+#  Celery, Redis & Background Tasks
+# =========================
+celerybeat-schedule
+celerybeat.pid
+celerybeat.lock
+celeryd.pid
+celeryd.lock
+
+# =========================
+#  IDEs & Editors
+# =========================
+
+# VS Code
+.vscode/
+.history
+*.code-workspace
+
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+#  Logs, Cache & System Files
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~ 
+.nfs*
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+*.~lock.*
+
+# =========================
+#  CI/CD & Deployment
+# =========================
+.coverage
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+*.mo
+*.pot
+*.pyc
+
+# Gunicorn / uWSGI / ASGI (for production deployment)
+gunicorn.log
+gunicorn-access.log
+gunicorn-error.log
+uwsgi.log
+uwsgi-emperor.log
+instance/
+
+# Gmail OAuth
+gmail_api/authenticate.py
+gmail_api/credentials/*.json
